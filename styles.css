@@ -27,10 +27,57 @@ p {
 
 }
 
+
+font-family: 'Secular One', sans-serif;
+
 */
 
+
+
 .block_ {
+    font-family: 'Secular One', sans-serif;
     width: 150px;
     height: 150px;
     border: 1px solid #333;
+    font-size: 26px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block1 {
+    background-color: red;
+}
+
+.block2 {
+    background-color: orange;
+}
+
+.block3 {
+    background-color: yellow;
+}
+
+.block4 {
+    background-color: lawngreen;
+}
+
+.block5 {
+    background-color: green;
+}
+
+.block6 {
+    background-color: lightskyblue;
+}
+
+.block7 {
+    background-color: blue;
+}
+
+.block8 {
+    background-color: purple;
+}
+
+.block9 {
+    background-color: palevioletred;
 }
