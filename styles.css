@@ -5,5 +5,19 @@
 }
 
 .bg {
-    background: url();
+    background: url(./files/background.jpg) top center no-repeat;
+    height: 600px;
+    background-size: cover; 
+    position:relative
 }
+
+.bg::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    content: "";
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
