@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
+/* 
+
 .bg {
-    background: url(./files/background.jpg) top center no-repeat;
+    background: url(/files/background.jpg) top center no-repeat;
     height: 600px;
     background-size: cover; 
 }
@@ -15,5 +17,20 @@
     color: #000;
     margin: 20px;
     display: inline-block;
+    text-decoration: none;
 }
 
+p {
+   
+    font-size: 26px;
+
+
+}
+
+*/
+
+.block_ {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #333;
+}
