@@ -34,6 +34,11 @@ font-family: 'Secular One', sans-serif;
 
 
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .block_ {
     font-family: 'Secular One', sans-serif;
     width: 150px;
@@ -84,6 +89,6 @@ font-family: 'Secular One', sans-serif;
 
 .flexbox {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
