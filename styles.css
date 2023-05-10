@@ -90,6 +90,7 @@ font-family: 'Secular One', sans-serif;
     flex-flow: column wrap;
     align-content: center;  */
     justify-content: space-between;
+    flex-direction: column-reverse;
     
 }
 
