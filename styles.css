@@ -34,15 +34,11 @@ font-family: 'Secular One', sans-serif;
 
 
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .block_ {
     font-family: 'Secular One', sans-serif;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border: 1px solid #333;
     font-size: 36px;
     color: #000;
@@ -89,6 +85,11 @@ font-family: 'Secular One', sans-serif;
 
 .flexbox {
     display: flex;
-    justify-content: space-evenly;
+    /* flex-wrap: wrap; 
+    flex-direction: column;
+    flex-flow: column wrap;
+    align-content: center;  */
+    justify-content: space-between;
+    
 }
 
